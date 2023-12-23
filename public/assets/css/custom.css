@@ -1,0 +1,78 @@
+.fs-7 {
+    font-size: 13px;
+}
+
+.fs-big {
+    font-size: 4em;
+}
+.fs-bigs {
+    font-size: 3em;
+}
+
+.fs-8 {
+    font-size: 11px;
+}
+
+.mt-n3 {
+    margin-top: -1.85em;
+}
+
+.mb-n3 {
+    margin-bottom: -1.85em;
+}
+
+.ps-10 {
+    padding-left: 12em;
+    padding-top: 4em;
+}
+
+.nav-con {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.nav-bg {
+    backdrop-filter: blur(10px);
+}
+
+.btn-pesan {
+    box-shadow: 13px 13px 0 0 #f79859;
+    transition-duration: 0.3s;
+}
+
+.btn-pesan:hover {
+    box-shadow: none;
+}
+
+.rounded-card {
+    transition-duration: 0.3s;
+    border: 1px solid #f79859;
+    border-radius: 2em;
+    overflow: hidden;
+    box-shadow: 5px 5px 18px 0 rgb(220, 220, 220);
+}
+
+.rounded-card:hover {
+    box-shadow: 5px 5px 15px 0 #f79859;
+    scale: 1.025;
+}
+.rounded-card-top {
+    height: 4em;
+    text-align: center;
+    vertical-align: middle;
+    background: rgb(255, 222, 26);
+    background: linear-gradient(
+        90deg,
+        rgba(255, 222, 26, 1) 0%,
+        rgba(255, 141, 0, 1) 22%,
+        rgba(255, 116, 0, 1) 95%
+    );
+}
+
+.contact > button {
+    color: #ff6f10;
+    border: 2px solid #fc7f2c;
+}
+.contact > button:hover {
+    color: black;
+    background: #f4680b;
+}
